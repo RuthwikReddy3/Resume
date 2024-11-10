@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    font-family: "Poppins";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 2px solid grey;
+}
+.right{
+    margin-left: 10px;
+    width: 55%;
+    padding: 10px;
+    margin: 10px;
+}
+.left{
+    width: 45%;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.top{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact,.skills,.certifications{
+    padding-left: 2%;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.progress-bar {
+    width: 80%;
+    background-color: #4e555b;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4285f4; /* blue color */
+    border-radius: 5px 0 0 5px;
+}
+.skill{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.con{
+    margin-left: 15px;
+}
+#sk{
+    margin-left: 15px;
+
+}
+.certifications{
+    margin-top: 20px;
+}
+.cert{
+    list-style-type:none;
+    margin-left: 20px;
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
